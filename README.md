@@ -80,7 +80,7 @@ https://github.com/gensyn-ai/rl-swarm/releases/tag/v0.6.2
 
 ### 💬 Credits
 
-Guide maintained by [Hellix], based on official Gensyn AI updates and community fixes.
+Guide maintained by Hellix, based on official Gensyn AI updates and community fixes.
 
 
 

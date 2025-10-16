@@ -13,16 +13,18 @@ You’ll just need to **upgrade your RL-SWARM setup** to the latest release and 
 
 ## 🚀 Steps to Fix
 
-### 1️⃣ Navigate to Your RL-SWARM Directory
+## 1️⃣ Navigate to Your RL-SWARM Directory
 ```bash
 cd ~/rl-swarm
 ```
 Adjust the path if your RL-SWARM folder is elsewhere.
 
 ---
+
 ## 2️⃣ (Optional) Save Uncommitted Changes
 If you’ve modified any files or have uncommitted work, stash them first:
-```
+```bash
+
 git stash
 ```
 
@@ -47,11 +49,13 @@ Activate it
 
 ## 4️⃣ Restart Your Node
 After activating your environment, run your node as usual:
-```
+```bash
+
 bash run_rl_swarm.sh
 ```
 or, if you’ve made it executable:
-```
+```bash
+
 ./run_rl_swarm.sh
 ```
 
@@ -59,7 +63,8 @@ or, if you’ve made it executable:
 
 ## 🧠 Additional Tips
 If your node still stops, try checking logs:
-```
+```bash
+
 tail -n 50 logs/node.log
 ```
 Ensure your VPS has enough memory and CPU for continuous operation.
